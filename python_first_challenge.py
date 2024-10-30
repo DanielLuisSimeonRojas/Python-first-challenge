@@ -52,6 +52,25 @@ def greet(name, age):
   print(f"Hello, {name}, you are {age} years old.")
 greet(userName, userAge)
 
+#Tuples: inmmutable, cannot modify it, similar to a list
+# coordinates = (10, 20, 30, 40)
+# print(coordinates[0]) 
 
+#Sets: doesn't allow duplicates, cannot access with using index
+numbers = {1, 2, 3, 4, 5, 6, 8, 8,}
+print(numbers[0])
 
+#Can import modules to use their functionalities
+import math
+print(math.sqrt(81))
+
+#Challenge: Create a tuple with three values (e.g., coordinates like x, y, z).
+#Create a set with some random numbers, including duplicates. Print the set to show that duplicates are removed.
+#Import the random module and use it to generate a random number between 1 and 10. Print the random number.
+
+coordinates = (1, 3, 4)
+randomNumbers = {1, 2, 3, 3}
+print(randomNumbers)
+import random
+print(random.randint(1, 10)) #Random number between 1-10
 
